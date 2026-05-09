@@ -1,11 +1,9 @@
-/* Digitos | Digital Agency HTML Template
+/* 
 
-Template Name: Digitos
-Version: 1.0.0
-License: copyright commercial
 
 /************ TABLE OF CONTENTS ***************
 1.  Fonts
+Digitos | GABY
 2.  Reset
 3.  Global Settings
 4.  Main Header / TWo / Three
@@ -6645,17 +6643,10 @@ Section Title
   object-fit: cover;
 }
 .project-block-two .inner-block .image img:first-child {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  z-index: 1;
+ 
   -webkit-transform: translateX(50%) scaleX(2);
           transform: translateX(50%) scaleX(2);
-  opacity: 0;
-  -webkit-filter: blur(10px);
-          filter: blur(10px);
+ 
 }
 .project-block-two .inner-block .content {
   position: absolute;
@@ -8667,11 +8658,13 @@ Section Title
 .video-section .outer-box {
   position: relative;
   border-radius: 40px;
-  max-width: 1840px;
-  margin: -100px auto 0;
-  padding: 248px 15px 220px;
   overflow: hidden;
   z-index: 0;
+}
+.video-section .outer-box video {
+  height: 60vh;
+  width: 100%;
+  object-fit: cover;
 }
 @media (max-width: 1199.98px) {
   .video-section .outer-box {
@@ -8695,7 +8688,7 @@ Section Title
   z-index: 0;
   opacity: 30%;
 }
-.video-section .outer-box:after {
+/* .video-section .outer-box:after {
   position: absolute;
   content: "";
   background: -webkit-gradient(linear, left top, left bottom, color-stop(2.99%, rgba(19, 19, 19, 0)), color-stop(108.6%, #F2520D));
@@ -8708,7 +8701,7 @@ Section Title
   -webkit-transform: rotate(-180deg);
           transform: rotate(-180deg);
   border-radius: 40px 40px 0 0;
-}
+} */
 .video-section .outer-box .bg-image {
   position: absolute;
   top: 0;
@@ -10667,11 +10660,11 @@ Testimonial Section
 }
 .testimonial-block .inner-block .image-box .image {
   position: relative;
-  width: 100px;
-  height: 100px;
+  width: 100%;
+  height: 300px;
   border-radius: 50%;
   z-index: 1;
-  margin-right: -10px;
+  margin-right: 0;
 }
 .testimonial-block .inner-block .image-box .image img {
   width: 100px;
