@@ -323,6 +323,43 @@ var THEMEMASCOT = {};
     });
   }
 
+  // Four Item Swiper
+  if ($(".testi-eleven_swiper").length) {
+    var swiper = new Swiper(".testi-eleven_swiper", {
+      slidesPerView: 1,
+      spaceBetween: 24,
+      autoplay: true,
+      speed: 1500,
+      loop: true,
+      centeredSlides: true,
+      navigation: {
+        nextEl: ".testi-eleven_button-next",
+        prevEl: ".testi-eleven_button-prev",
+      },
+      breakpoints: {
+        1500: {
+          slidesPerView: 1,
+        },
+        1200: {
+          slidesPerView: 1,
+        },
+        992: {
+          centeredSlides: false,
+          slidesPerView: 1,
+        },
+        650: {
+          slidesPerView: 1,
+        },
+        600: {
+          slidesPerView: 1,
+        },
+        0: {
+          slidesPerView: 1,
+        },
+      },
+    });
+  }
+
   if ($(".claint-swiper").length) {
     var swiper = new Swiper(".claint-swiper", {
       speed: 1500,
