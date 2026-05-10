@@ -252,19 +252,93 @@ var THEMEMASCOT = {};
   // Four Item Swiper
   if ($(".service-two_swiper").length) {
     var swiper = new Swiper(".service-two_swiper", {
-      slidesPerView: 3,
+      slidesPerView: 4,
       spaceBetween: 24,
       autoplay: true,
       speed: 1500,
       loop: true,
-      centeredSlides: true,
+      centeredSlides: false,
       navigation: {
         nextEl: ".service-two_button-next",
         prevEl: ".service-two_button-prev",
       },
       breakpoints: {
         1500: {
+          slidesPerView: 4,
+        },
+        1200: {
           slidesPerView: 3,
+        },
+        768: {
+          centeredSlides: false,
+          slidesPerView: 2,
+        },
+        650: {
+          slidesPerView: 1,
+        },
+        600: {
+          slidesPerView: 1,
+        },
+        0: {
+          slidesPerView: 1,
+        },
+      },
+    });
+  }
+
+  // Four Item Swiper
+  if ($(".service-ten_swiper").length) {
+    var swiper = new Swiper(".service-ten_swiper", {
+      slidesPerView: 4,
+      spaceBetween: 24,
+      autoplay: true,
+      speed: 1500,
+      loop: true,
+      centeredSlides: false,
+      navigation: {
+        nextEl: ".service-ten-button-next",
+        prevEl: ".service-ten-button-prev",
+      },
+      breakpoints: {
+        1500: {
+          slidesPerView: 4,
+        },
+        1200: {
+          slidesPerView: 3,
+        },
+        768: {
+          centeredSlides: false,
+          slidesPerView: 2,
+        },
+        650: {
+          slidesPerView: 1,
+        },
+        600: {
+          slidesPerView: 1,
+        },
+        0: {
+          slidesPerView: 1,
+        },
+      },
+    });
+  }
+
+  // Four Item Swiper
+  if ($(".service-seven_swiper").length) {
+    var swiper = new Swiper(".service-seven_swiper", {
+      slidesPerView: 4,
+      spaceBetween: 24,
+      autoplay: true,
+      speed: 1500,
+      loop: true,
+      centeredSlides: false,
+      navigation: {
+        nextEl: ".service-seven-button-next",
+        prevEl: ".service-seven-button-prev",
+      },
+      breakpoints: {
+        1500: {
+          slidesPerView: 4,
         },
         1200: {
           slidesPerView: 3,
