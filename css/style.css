@@ -19157,7 +19157,10 @@ transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
      .after-sales{
       padding:100px 40px;
     }
-
+.after-sales p {
+  color: #fff;
+  font-size: 18px;
+}
     .after-sales .container{
       max-width:1400px;
       margin:auto;
@@ -19168,6 +19171,7 @@ transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
       font-size:55px;
       font-weight:700;
       margin-bottom:70px;
+      color: #fff;
     }
 
     .after-sales .services-grid{
@@ -19177,11 +19181,12 @@ transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     }
 
     .after-sales .service-card{
-      background:#3f4449;
+      background: #000000;
       padding:45px 35px;
       text-align:center;
       transition:.3s;
       border-radius: 15px;
+      height: 390px;
     }
 
     .after-sales .service-card:hover{
